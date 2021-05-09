@@ -7,6 +7,11 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Next App | Home</title>
+      <meta name="keywords" content="ninja"/>
+    </Head>
     <div >
       <h1 className={styles.title}> home page</h1>
       <p className={styles.text}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo iste numquam repellendus ipsa unde commodi quia earum dignissimos incidunt maxime. Sed accusamus quo, eum a accusantium non voluptatem harum eaque?
@@ -21,5 +26,6 @@ export default function Home() {
       Doloremque consequatur hic itaque distinctio deleniti recusandae libero eligendi molestiae assumenda, aliquid id iste maiores, ipsam minus laboriosam excepturi ab nemo cum nulla ad? Architecto omnis veniam consequatur cum a?</p>
       <Link href="/ninja" ><a className={styles.btn}>Visit Nija page</a></Link>
     </div>
+    </>
   )
 }

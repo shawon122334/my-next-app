@@ -1,7 +1,13 @@
+import Head from 'next/head'
 const Ninja = () => {
-    return ( 
-        <div>this is root path for ninja </div>
-     );
+    return (
+        <>
+            <Head>
+                <title>Next App | Ninja</title>
+            </Head>
+            <div>this is root path for ninja </div>
+        </>
+    );
 }
- 
+
 export default Ninja;
