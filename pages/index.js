@@ -7,7 +7,6 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div >
-      <Navbar/>
       <h1> home page</h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo iste numquam repellendus ipsa unde commodi quia earum dignissimos incidunt maxime. Sed accusamus quo, eum a accusantium non voluptatem harum eaque?
       Iusto ipsa voluptate et animi nam! Accusantium odit, harum voluptatibus porro vel eum quibusdam unde doloribus, impedit ex rem aliquam. Doloribus, quibusdam tempora beatae quam non iure expedita tenetur ipsum!
@@ -19,7 +18,6 @@ export default function Home() {
       Autem quae harum consequatur, aliquid facilis incidunt animi architecto culpa. Illo laboriosam necessitatibus ipsum rerum quisquam aliquam quasi omnis dolore voluptatem labore quidem, quos est, atque reprehenderit quae consequatur dignissimos.
       Esse consequuntur voluptatem, quae amet quaerat hic pariatur sequi iste optio, praesentium quasi beatae, corporis natus sed magni architecto. Neque aliquid dolor sit corporis tenetur ut voluptates ratione tempore! Obcaecati.
       Doloremque consequatur hic itaque distinctio deleniti recusandae libero eligendi molestiae assumenda, aliquid id iste maiores, ipsam minus laboriosam excepturi ab nemo cum nulla ad? Architecto omnis veniam consequatur cum a?</p>
-      <Footer/>
     </div>
   )
 }
